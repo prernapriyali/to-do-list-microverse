@@ -21,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://prernapriyali.github.io/to-do-list-microverse/)
 
 ## Getting Started
 
