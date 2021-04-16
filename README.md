@@ -19,10 +19,6 @@ Additional description about the project and its features.
 - localStorage
 
 
-## Live Demo
-
-[Live Demo Link](https://prernapriyali.github.io/to-do-list-microverse/)
-
 ## Getting Started
 
 In order to run locally this project type the following commands over the terminal in Linux or Mac or the Windows cmd console:
