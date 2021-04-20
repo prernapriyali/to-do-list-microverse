@@ -27,7 +27,7 @@ In order to run locally this project type the following commands over the termin
 $ git clone https://github.com/prernapriyali/to-do-list-microverse
 
 
-```$ cd To-Do-List
+```$ cd To-Do-List-Microverse
 $ npm install
 
 ```
