@@ -1,8 +1,10 @@
-import render from './scripts/dom-handlers/render';
-import './style.css';
-import newProject from './scripts/project';
+import StorageController from './js_modules/controllers/StorageController';
 
-if (!localStorage.getItem('projects')) {
-  localStorage.setItem('projects', JSON.stringify([newProject('Default Project')]));
-}
-render();
+const storageController = new StorageController(localStorage);
+storageController.init();
+
+// responsive
+document.querySelector('.menuBtn').addEventListener('click', () => {
+  const menuView = document.querySelector('.projects-menu');
+  menuView.classList.toggle('display-flex');
+});
